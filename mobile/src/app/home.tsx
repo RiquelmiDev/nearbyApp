@@ -57,7 +57,6 @@ export default function Home() {
 
       if (granted) {
         const location = await Location.getCurrentPositionAsync()
-        console.log(location)
       }
     } catch (error) {
       console.log(error)
